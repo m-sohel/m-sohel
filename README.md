@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Mohammad Sohel</h1>
-<h3 align="center">A passionate Full-Stack Developer & Tech Enthusiast from India</h3>
+<h3 align="center">A Emerging Full-Stack Developer & Tech Enthusiast from India</h3>
 
 <img align="right" alt="Coding" width="400" src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif" />
 
@@ -8,7 +8,7 @@
 - 🎓 Currently pursuing **B.Tech in Computer Technology**  
 - 🌱 Actively learning **Backend Development**, **Cloud Fundamentals**, and **Design Patterns**  
 - 🔭 Always building: clean, responsive websites with Java, Python, and JavaScript  
-- 💬 Ask me about **Web Development**, **Java**, **Responsive UI**, and **Git Workflows**  
+- 💬 Ask me about **Web Development**, **Software Development**, **Android Development**, **Java**, **Responsive UI**, and **Git Workflows**  
 - 📫 Reach me at **shaikhsohel9272@gmail.com**  
 - ⚡ Fun fact: I write better code with a good cup of chai ☕
 

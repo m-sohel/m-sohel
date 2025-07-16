@@ -6,7 +6,7 @@
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=m-sohel&label=Profile%20views&color=0e75b6&style=flat" alt="m-sohel" /> </p>
 
 - 🎓 Currently pursuing **B.Tech in Computer Technology**  
-- 🌱 Actively learning **Backend Development**, **Cloud Fundamentals**, and **Design Patterns**  
+- 🌱 Actively learning **Backend Development**, **DSA**, and **Design Patterns**  
 - 🔭 Always building: clean, responsive websites with Java, Python, and JavaScript  
 - 💬 Ask me about **Web Development**, **Software Development**, **Android Development**, **Java**, **Responsive UI**, and **Git Workflows**  
 - 📫 Reach me at **shaikhsohel9272@gmail.com**  

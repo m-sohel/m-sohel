@@ -11,7 +11,7 @@
 
 - 💻 Check out my latest project: [Sohel's Travel Blog](https://github.com/m-sohel/sohel-travel-blog)
 
-- 📫 How to reach me: **shaikhsohel9272@gmail.com**
+- 📫 How to reach me: **work.msohel@gmail.com**
 
 - ⚡ Fun fact: **I break things just to fix them better** 😄
 

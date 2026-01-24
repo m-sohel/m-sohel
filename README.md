@@ -22,12 +22,19 @@
 
 ---
 
-<h3 align="left">Connect with me:</h3>
+### 🌐 Connect & Collaborate
+
 <p align="left">
-  <a href="https://www.linkedin.com/in/mo-sohel/" target="blank">
-    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="mo-sohel" height="30" width="40" />
+  <a href="https://www.linkedin.com/in/mo-sohel/" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0A66C2" alt="LinkedIn" />
   </a>
-</p>
+  <a href="mailto:work.msohel@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=EA4335" alt="Gmail" />
+  </a>
+  <a href="https://vierlabs.com/" target="_blank">
+    <img src="https://img.shields.io/badge/Vier_Labs-8B5CF6?style=for-the-badge&logo=google-chrome&logoColor=white&labelColor=8B5CF6" alt="Vier Labs" />
+  </a>
+
 
 ---
 

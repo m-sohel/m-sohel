@@ -1,0 +1,158 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="100%" height="auto">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080B14" />
+      <stop offset="50%" stop-color="#0D1117" />
+      <stop offset="100%" stop-color="#07090E" />
+    </linearGradient>
+
+    <!-- Aurora Radial Glows -->
+    <radialGradient id="auroraViolet" cx="30%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#A855F7" stop-opacity="0.28" />
+      <stop offset="50%" stop-color="#7C3AED" stop-opacity="0.12" />
+      <stop offset="100%" stop-color="#080B14" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="auroraIndigo" cx="72%" cy="45%" r="60%">
+      <stop offset="0%" stop-color="#6366F1" stop-opacity="0.25" />
+      <stop offset="55%" stop-color="#4F46E5" stop-opacity="0.10" />
+      <stop offset="100%" stop-color="#080B14" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="auroraCyan" cx="50%" cy="20%" r="45%">
+      <stop offset="0%" stop-color="#67E8F9" stop-opacity="0.16" />
+      <stop offset="60%" stop-color="#06B6D4" stop-opacity="0.04" />
+      <stop offset="100%" stop-color="#080B14" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Border Gradient -->
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#A855F7" stop-opacity="0.6" />
+      <stop offset="35%" stop-color="#6366F1" stop-opacity="0.4" />
+      <stop offset="70%" stop-color="#67E8F9" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#1E293B" stop-opacity="0.4" />
+    </linearGradient>
+
+    <!-- Text Metallic Aurora Gradient -->
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="40%" stop-color="#F3E8FF" />
+      <stop offset="80%" stop-color="#E0E7FF" />
+      <stop offset="100%" stop-color="#C7D2FE" />
+    </linearGradient>
+
+    <!-- Accent Pill Gradient -->
+    <linearGradient id="pillGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#A855F7" stop-opacity="0.2" />
+      <stop offset="100%" stop-color="#6366F1" stop-opacity="0.2" />
+    </linearGradient>
+
+    <!-- Horizon Line Gradient -->
+    <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#A855F7" stop-opacity="0" />
+      <stop offset="20%" stop-color="#A855F7" stop-opacity="0.5" />
+      <stop offset="50%" stop-color="#67E8F9" stop-opacity="0.8" />
+      <stop offset="80%" stop-color="#6366F1" stop-opacity="0.5" />
+      <stop offset="100%" stop-color="#6366F1" stop-opacity="0" />
+    </linearGradient>
+
+    <!-- Fine Grid Pattern -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#6366F1" stroke-width="0.75" stroke-opacity="0.07" />
+    </pattern>
+
+    <!-- Sparkle Star Symbol -->
+    <g id="sparkle">
+      <path d="M0,-8 Q0,0 8,0 Q0,0 0,8 Q0,0 -8,0 Q0,0 0,-8 Z" fill="#67E8F9" fill-opacity="0.75" />
+    </g>
+  </defs>
+
+  <style>
+    .font-sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', Roboto, Helvetica, Arial, sans-serif; }
+    .font-mono { font-family: 'SF Mono', 'Fira Code', 'Cascadia Code', 'JetBrains Mono', Consolas, monospace; }
+  </style>
+
+  <!-- Card Canvas -->
+  <rect width="1200" height="360" rx="16" fill="url(#bgGrad)" />
+
+  <!-- Grid Layer -->
+  <rect width="1200" height="360" rx="16" fill="url(#grid)" />
+
+  <!-- Aurora Atmospheric Glows -->
+  <rect width="1200" height="360" rx="16" fill="url(#auroraViolet)" />
+  <rect width="1200" height="360" rx="16" fill="url(#auroraIndigo)" />
+  <rect width="1200" height="360" rx="16" fill="url(#auroraCyan)" />
+
+  <!-- Flowing Wave Vectors (Aurora Streams) -->
+  <path d="M-50,220 C250,140 450,260 750,170 C950,110 1100,180 1250,150 L1250,360 L-50,360 Z" fill="#A855F7" fill-opacity="0.04" />
+  <path d="M-50,270 C300,190 550,300 850,210 C1020,160 1150,220 1250,200 L1250,360 L-50,360 Z" fill="#6366F1" fill-opacity="0.05" />
+
+  <!-- Restrained Stars / Celestial Particles -->
+  <circle cx="120" cy="70" r="1.5" fill="#E6EDF3" fill-opacity="0.6" />
+  <circle cx="210" cy="110" r="1" fill="#67E8F9" fill-opacity="0.8" />
+  <circle cx="340" cy="60" r="1.5" fill="#C4B5FD" fill-opacity="0.7" />
+  <circle cx="480" cy="95" r="1" fill="#E6EDF3" fill-opacity="0.4" />
+  <circle cx="720" cy="65" r="1.5" fill="#67E8F9" fill-opacity="0.7" />
+  <circle cx="860" cy="115" r="1" fill="#E6EDF3" fill-opacity="0.5" />
+  <circle cx="980" cy="80" r="1.5" fill="#C4B5FD" fill-opacity="0.8" />
+  <circle cx="1080" cy="130" r="1" fill="#67E8F9" fill-opacity="0.6" />
+  <circle cx="1130" cy="60" r="2" fill="#E6EDF3" fill-opacity="0.8" />
+  <circle cx="90" cy="240" r="1" fill="#C4B5FD" fill-opacity="0.5" />
+  <circle cx="1110" cy="270" r="1.5" fill="#E6EDF3" fill-opacity="0.5" />
+
+  <!-- Sparkle Accents -->
+  <use href="#sparkle" x="160" y="80" transform="scale(0.85)" />
+  <use href="#sparkle" x="1040" y="90" transform="scale(0.7)" />
+  <use href="#sparkle" x="920" y="240" transform="scale(0.55)" />
+
+  <!-- Top Status Pill -->
+  <g transform="translate(600, 72)">
+    <rect x="-190" y="-15" width="380" height="30" rx="15" fill="url(#pillGrad)" stroke="#A855F7" stroke-width="1" stroke-opacity="0.45" />
+    <!-- Pulsing Cyan Radar Dot -->
+    <circle cx="-168" cy="0" r="4" fill="#67E8F9" />
+    <circle cx="-168" cy="0" r="7" fill="#67E8F9" fill-opacity="0.3" />
+    <text x="-150" y="4.5" class="font-mono" font-size="11" font-weight="600" fill="#E6EDF3" letter-spacing="1.5">FULL STACK DEVELOPER · FOUNDER @ VIER LABS</text>
+  </g>
+
+  <!-- Primary Name Heading -->
+  <text x="600" y="156" text-anchor="middle" class="font-sans" font-size="54" font-weight="800" fill="url(#textGrad)" letter-spacing="-1">
+    Mohammad Sohel
+  </text>
+
+  <!-- Tagline / Architecture Subheading -->
+  <text x="600" y="200" text-anchor="middle" class="font-sans" font-size="17" font-weight="400" fill="#94A3B8" letter-spacing="0.3">
+    Building Modern Web Applications · Pragmatic Architecture · Production-Ready Systems
+  </text>
+
+  <!-- Horizontal Aurora Divider -->
+  <line x1="280" y1="234" x2="920" y2="234" stroke="url(#lineGrad)" stroke-width="1.5" />
+
+  <!-- Engineering Focus Badges / Tags -->
+  <g transform="translate(600, 275)" text-anchor="middle">
+    <!-- Tag 1: Architecture -->
+    <g transform="translate(-230, 0)">
+      <rect x="-85" y="-14" width="170" height="28" rx="6" fill="#0D1117" stroke="#30363D" stroke-width="1" />
+      <circle cx="-65" cy="0" r="3" fill="#A855F7" />
+      <text x="-52" y="4.5" text-anchor="start" class="font-mono" font-size="11" fill="#C4B5FD">Clean Architecture</text>
+    </g>
+
+    <!-- Tag 2: Full-Stack -->
+    <g transform="translate(0, 0)">
+      <rect x="-85" y="-14" width="170" height="28" rx="6" fill="#0D1117" stroke="#30363D" stroke-width="1" />
+      <circle cx="-65" cy="0" r="3" fill="#67E8F9" />
+      <text x="-52" y="4.5" text-anchor="start" class="font-mono" font-size="11" fill="#BAE6FD">Full-Stack Systems</text>
+    </g>
+
+    <!-- Tag 3: Founder / Products -->
+    <g transform="translate(230, 0)">
+      <rect x="-85" y="-14" width="170" height="28" rx="6" fill="#0D1117" stroke="#30363D" stroke-width="1" />
+      <circle cx="-65" cy="0" r="3" fill="#6366F1" />
+      <text x="-52" y="4.5" text-anchor="start" class="font-mono" font-size="11" fill="#C7D2FE">Vier Labs Founder</text>
+    </g>
+  </g>
+
+  <!-- Fine Outer Border -->
+  <rect x="0.75" y="0.75" width="1198.5" height="358.5" rx="15.25" fill="none" stroke="url(#borderGrad)" stroke-width="1.5" />
+</svg>
+

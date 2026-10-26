@@ -20,29 +20,48 @@
   </a>
 </p>
 
----
+<p align="center">
+  <img src="./assets/aurora-divider.svg" alt="Divider" width="100%" />
+</p>
 
 ### 🌌 About Me
 
 I am a **Full Stack Developer** and the **Founder of [Vier Labs](https://vierlabs.com/)**, dedicated to engineering modern web applications, scalable backend systems, and production-ready digital products.
 
 - ⚙️ **Practical Engineering:** I value clean, decoupled architecture, maintainable patterns, and turning complex real-world requirements into intuitive, reliable software.
-- 🌐 **Full-Stack Execution:** Experienced in building responsive, accessible interfaces (React, Next.js, TypeScript) and resilient backend services (Node.js, REST APIs, document and relational databases).
+- 🌐 **Full-Stack Execution:** Experienced across modern reactive interfaces (React, Next.js, TypeScript) and resilient backend services (Node.js, REST APIs, document and relational databases).
 - 🚀 **Founder @ Vier Labs:** Directing product engineering from idea to deployment, building software tools centered around speed, usability, and stability.
 
 > *"Simplicity precedes reliability. Build practical software that solves real problems with clean architecture, verified logic, and maintainable code."*
 
----
+<p align="center">
+  <img src="./assets/aurora-divider.svg" alt="Divider" width="100%" />
+</p>
 
 ### 🛰️ Featured Projects
+
+<p align="center">
+  <a href="https://github.com/m-sohel/proofpilot">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=m-sohel&repo=proofpilot&theme=algolia&bg_color=0D1117&title_color=A855F7&icon_color=67E8F9&text_color=E6EDF3&border_color=2E2A4A" alt="ProofPilot Repository Card" />
+  </a>
+  &nbsp;
+  <a href="https://github.com/m-sohel/UrbanSpoon">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=m-sohel&repo=UrbanSpoon&theme=algolia&bg_color=0D1117&title_color=A855F7&icon_color=67E8F9&text_color=E6EDF3&border_color=2E2A4A" alt="Urban Spoon Repository Card" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/m-sohel/visual-javadsa">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=m-sohel&repo=visual-javadsa&theme=algolia&bg_color=0D1117&title_color=A855F7&icon_color=67E8F9&text_color=E6EDF3&border_color=2E2A4A" alt="JavaDSA Visual Academy Repository Card" />
+  </a>
+</p>
 
 #### 01. [ProofPilot](https://github.com/m-sohel/proofpilot) — AI Agent for Payment Dispute Defense
 > **Autonomous, evidence-grounded chargeback defense engine for digital merchants.**
 >
 > * **Deterministic Verification:** Enforces a strict evidence-first rule engine where pure code verifies all dispute facts against ground truth before any draft is generated, strictly confining LLMs to extraction and synthesis while eliminating hallucinations.
 > * **Core Capabilities:** Automated dispute evidence collection, policy compliance evaluation, and economically rational accept/challenge decisioning.
-> * **Stack:** `Python` • `FastAPI` • `LLM Agent Workflows` • `Deterministic Verification`
->
+> * **Stack:** `Python` • `FastAPI` • `LLM Agent Workflows` • `Deterministic Verification`  
 > 🔗 [Source Code & Documentation](https://github.com/m-sohel/proofpilot)
 
 #### 02. [Urban Spoon](https://github.com/m-sohel/UrbanSpoon) — Full-Stack MERN Hospitality Platform
@@ -50,8 +69,7 @@ I am a **Full Stack Developer** and the **Founder of [Vier Labs](https://vierlab
 >
 > * **Architecture:** End-to-end full-stack web application featuring categorized culinary menus, customer reservation inquiry pipelines, and persistent MongoDB Atlas storage.
 > * **Admin Oversight:** Dedicated administrative dashboard enabling managers to inspect, filter, and track incoming guest inquiries in real time.
-> * **Stack:** `React` • `Node.js` • `Express.js` • `MongoDB Atlas` • `Tailwind CSS`
->
+> * **Stack:** `React` • `Node.js` • `Express.js` • `MongoDB Atlas` • `Tailwind CSS`  
 > 🔗 [Source Code](https://github.com/m-sohel/UrbanSpoon) &nbsp;|&nbsp; 🌐 [Live Deployment](https://urbanspoon.vercel.app/)
 
 #### 03. [JavaDSA Visual Academy](https://github.com/m-sohel/visual-javadsa) — Interactive Algorithmic Learning Engine
@@ -59,11 +77,12 @@ I am a **Full Stack Developer** and the **Founder of [Vier Labs](https://vierlab
 >
 > * **Dynamic Visualizers:** Interactive, backward-steppable animated visualizations of live memory allocations, pointer shifts, and call stack operations using an ELI10 teaching philosophy.
 > * **Frontend Craft:** Engineered with reactive state management (Zustand), high-framerate motion animations, and responsive layout.
-> * **Stack:** `React 18` • `TypeScript` • `Vite` • `Tailwind CSS` • `Framer Motion` • `Zustand`
->
+> * **Stack:** `React 18` • `TypeScript` • `Vite` • `Tailwind CSS` • `Framer Motion` • `Zustand`  
 > 🔗 [Source Code](https://github.com/m-sohel/visual-javadsa) &nbsp;|&nbsp; 🌐 [Live Deployment](https://visual-javadsa.vercel.app)
 
----
+<p align="center">
+  <img src="./assets/aurora-divider.svg" alt="Divider" width="100%" />
+</p>
 
 ### 🛠️ Technical Stack & Tooling
 
@@ -112,24 +131,28 @@ I am a **Full Stack Developer** and the **Founder of [Vier Labs](https://vierlab
   </tr>
 </table>
 
----
+<p align="center">
+  <img src="./assets/aurora-divider.svg" alt="Divider" width="100%" />
+</p>
 
 ### 📊 GitHub Activity & Analytics
 
 <p align="center">
-  <img height="175" src="https://github-readme-stats.vercel.app/api?username=m-sohel&show_icons=true&include_all_commits=true&count_private=true&border_radius=10&bg_color=080B14&title_color=A855F7&icon_color=67E8F9&text_color=E6EDF3&border_color=2E2A4A" alt="Mohammad Sohel's GitHub Overview" />
-  <img height="175" src="https://github-readme-stats.vercel.app/api/top-langs/?username=m-sohel&layout=compact&langs_count=6&border_radius=10&bg_color=080B14&title_color=A855F7&text_color=E6EDF3&border_color=2E2A4A" alt="Top Languages by Repository Volume" />
+  <img height="175" src="https://github-readme-stats.vercel.app/api?username=m-sohel&show_icons=true&include_all_commits=true&count_private=true&border_radius=10&bg_color=0D1117&title_color=A855F7&icon_color=67E8F9&text_color=E6EDF3&border_color=2E2A4A" alt="Mohammad Sohel's GitHub Overview" />
+  <img height="175" src="https://github-readme-stats.vercel.app/api/top-langs/?username=m-sohel&layout=compact&langs_count=6&border_radius=10&bg_color=0D1117&title_color=A855F7&text_color=E6EDF3&border_color=2E2A4A" alt="Top Languages by Repository Volume" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats-salesp07.vercel.app/?user=m-sohel&border_radius=10&background=080B14&ring=A855F7&fire=67E8F9&currStreakLabel=A855F7&sideNums=E6EDF3&sideLabels=8B949E&dates=8B949E&border=2E2A4A" alt="Mohammad Sohel's Contribution Streak" />
+  <img src="https://github-readme-streak-stats-salesp07.vercel.app/?user=m-sohel&border_radius=10&background=0D1117&ring=A855F7&fire=67E8F9&currStreakLabel=A855F7&sideNums=E6EDF3&sideLabels=8B949E&dates=8B949E&border=2E2A4A" alt="Mohammad Sohel's Contribution Streak" />
 </p>
 
 <p align="center">
   <sub><em>Note: Language breakdown reflects codebase byte volume across public repositories, not developer proficiency.</em></sub>
 </p>
 
----
+<p align="center">
+  <img src="./assets/aurora-divider.svg" alt="Divider" width="100%" />
+</p>
 
 ### 🌐 Connect & Collaborate
 

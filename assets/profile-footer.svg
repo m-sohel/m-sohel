@@ -1,38 +1,32 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 110" width="100%" height="auto">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 90" width="100%" height="auto">
   <defs>
-    <!-- Background Gradient -->
-    <linearGradient id="footerBg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#080B14" />
-      <stop offset="50%" stop-color="#0D1117" />
-      <stop offset="100%" stop-color="#07090E" />
+    <!-- Background matching #0D1117 -->
+    <linearGradient id="footerBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0D1117" />
+      <stop offset="100%" stop-color="#080B14" />
     </linearGradient>
 
-    <!-- Aurora Radial Glows -->
-    <radialGradient id="footerViolet" cx="40%" cy="80%" r="70%">
-      <stop offset="0%" stop-color="#A855F7" stop-opacity="0.22" />
-      <stop offset="50%" stop-color="#7C3AED" stop-opacity="0.08" />
-      <stop offset="100%" stop-color="#080B14" stop-opacity="0" />
+    <!-- Aurora Glows -->
+    <radialGradient id="footerViolet" cx="40%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#A855F7" stop-opacity="0.25" />
+      <stop offset="60%" stop-color="#7C3AED" stop-opacity="0.05" />
+      <stop offset="100%" stop-color="#0D1117" stop-opacity="0" />
     </radialGradient>
 
-    <radialGradient id="footerIndigo" cx="65%" cy="80%" r="60%">
-      <stop offset="0%" stop-color="#6366F1" stop-opacity="0.20" />
-      <stop offset="50%" stop-color="#4F46E5" stop-opacity="0.06" />
-      <stop offset="100%" stop-color="#080B14" stop-opacity="0" />
+    <radialGradient id="footerIndigo" cx="65%" cy="50%" r="55%">
+      <stop offset="0%" stop-color="#6366F1" stop-opacity="0.22" />
+      <stop offset="60%" stop-color="#4F46E5" stop-opacity="0.04" />
+      <stop offset="100%" stop-color="#0D1117" stop-opacity="0" />
     </radialGradient>
 
-    <!-- Border Gradient -->
-    <linearGradient id="footerBorder" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#1E293B" stop-opacity="0.2" />
-      <stop offset="30%" stop-color="#A855F7" stop-opacity="0.5" />
-      <stop offset="50%" stop-color="#67E8F9" stop-opacity="0.7" />
-      <stop offset="70%" stop-color="#6366F1" stop-opacity="0.5" />
-      <stop offset="100%" stop-color="#1E293B" stop-opacity="0.2" />
+    <!-- Ray Gradient -->
+    <linearGradient id="footerRay" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#A855F7" stop-opacity="0" />
+      <stop offset="40%" stop-color="#A855F7" stop-opacity="0.5" />
+      <stop offset="50%" stop-color="#67E8F9" stop-opacity="0.9" />
+      <stop offset="60%" stop-color="#6366F1" stop-opacity="0.5" />
+      <stop offset="100%" stop-color="#6366F1" stop-opacity="0" />
     </linearGradient>
-
-    <!-- Fine Grid Pattern -->
-    <pattern id="footerGrid" width="30" height="30" patternUnits="userSpaceOnUse">
-      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#6366F1" stroke-width="0.5" stroke-opacity="0.06" />
-    </pattern>
 
     <!-- Sparkle Symbol -->
     <g id="miniSparkle">
@@ -41,48 +35,33 @@
   </defs>
 
   <style>
-    .font-sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', Roboto, sans-serif; }
     .font-mono { font-family: 'SF Mono', 'Fira Code', 'Cascadia Code', 'JetBrains Mono', Consolas, monospace; }
   </style>
 
-  <!-- Card Canvas -->
-  <rect width="1200" height="110" rx="14" fill="url(#footerBg)" />
+  <!-- Seamless Canvas -->
+  <rect width="1200" height="90" fill="url(#footerBg)" />
 
-  <!-- Grid Layer -->
-  <rect width="1200" height="110" rx="14" fill="url(#footerGrid)" />
+  <!-- Aurora Glows -->
+  <rect width="1200" height="90" fill="url(#footerViolet)" />
+  <rect width="1200" height="90" fill="url(#footerIndigo)" />
 
-  <!-- Glows -->
-  <rect width="1200" height="110" rx="14" fill="url(#footerViolet)" />
-  <rect width="1200" height="110" rx="14" fill="url(#footerIndigo)" />
+  <!-- Subtle Horizon Stars -->
+  <circle cx="160" cy="30" r="1" fill="#E6EDF3" fill-opacity="0.6" />
+  <circle cx="290" cy="55" r="1" fill="#67E8F9" fill-opacity="0.7" />
+  <circle cx="910" cy="25" r="1" fill="#C4B5FD" fill-opacity="0.7" />
+  <circle cx="1050" cy="50" r="1.5" fill="#E6EDF3" fill-opacity="0.5" />
+  <use href="#miniSparkle" x="210" y="20" />
+  <use href="#miniSparkle" x="990" y="60" />
 
-  <!-- Horizon Wave Vector -->
-  <path d="M0,20 C350,60 700,0 1200,35 L1200,110 L0,110 Z" fill="#6366F1" fill-opacity="0.03" />
+  <!-- Horizon Ray Line -->
+  <line x1="150" y1="28" x2="1050" y2="28" stroke="url(#footerRay)" stroke-width="1.2" />
 
-  <!-- Stars -->
-  <circle cx="150" cy="40" r="1" fill="#E6EDF3" fill-opacity="0.6" />
-  <circle cx="280" cy="70" r="1" fill="#67E8F9" fill-opacity="0.7" />
-  <circle cx="920" cy="35" r="1" fill="#C4B5FD" fill-opacity="0.7" />
-  <circle cx="1060" cy="65" r="1.5" fill="#E6EDF3" fill-opacity="0.5" />
-  <use href="#miniSparkle" x="200" y="30" />
-  <use href="#miniSparkle" x="1000" y="75" />
-
-  <!-- Center Decorative Diamond & Text -->
-  <g transform="translate(600, 48)" text-anchor="middle">
-    <!-- Center Emblem -->
-    <polygon points="0,-10 8,0 0,10 -8,0" fill="#0D1117" stroke="#A855F7" stroke-width="1.2" />
-    <circle cx="0" cy="0" r="2.5" fill="#67E8F9" />
-
-    <!-- Left & Right Accent Rays -->
-    <line x1="-18" y1="0" x2="-140" y2="0" stroke="url(#footerBorder)" stroke-width="1" />
-    <line x1="18" y1="0" x2="140" y2="0" stroke="url(#footerBorder)" stroke-width="1" />
-
-    <!-- Monogram / Attribution -->
-    <text y="28" class="font-mono" font-size="11" font-weight="600" fill="#94A3B8" letter-spacing="2">
-      VIER LABS · DESIGNED &amp; ENGINEERED BY MOHAMMAD SOHEL
+  <!-- Center Emblem & Attribution -->
+  <g transform="translate(600, 28)" text-anchor="middle">
+    <polygon points="0,-7 7,0 0,7 -7,0" fill="#0D1117" stroke="#67E8F9" stroke-width="1.2" />
+    <circle cx="0" cy="0" r="2" fill="#A855F7" />
+    <text y="32" class="font-mono" font-size="11" font-weight="600" fill="#94A3B8" letter-spacing="2">
+      VIER LABS · CRAFTED BY MOHAMMAD SOHEL
     </text>
   </g>
-
-  <!-- Border -->
-  <rect x="0.75" y="0.75" width="1198.5" height="108.5" rx="13.25" fill="none" stroke="url(#footerBorder)" stroke-width="1" />
 </svg>
-
